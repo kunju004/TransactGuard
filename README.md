@@ -94,6 +94,14 @@ The service exposes:
 - `/swagger-ui.html`
 - `/v3/api-docs`
 
+## Local Demo URLs
+
+- Repository: https://github.com/kunju004/TransactGuard
+- Swagger UI: http://localhost:8080/swagger-ui/index.html
+- Health Check: http://localhost:8080/actuator/health
+- Prometheus: http://localhost:9090
+- Grafana: http://localhost:3000
+
 ## Run locally
 
 ### Prerequisites
