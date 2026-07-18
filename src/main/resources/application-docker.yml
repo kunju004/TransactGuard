@@ -7,10 +7,21 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  kafka:
-    bootstrap-servers: kafka:9092
+    defer-datasource-initialization: true
+    open-in-view: false
+  sql:
+    init:
+      mode: always
 
-app:
-  messaging:
-    kafka:
-      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  metrics:
+    tags:
+      application: transactguard
