@@ -1,0 +1,21 @@
+---
+name: Bug report
+about: Report a reproducible issue
+labels: bug
+---
+
+## What happened?
+
+## Steps to reproduce
+
+1.
+2.
+3.
+
+## Expected behavior
+
+## Environment
+
+- Java version:
+- OS:
+- Run mode: local / Docker

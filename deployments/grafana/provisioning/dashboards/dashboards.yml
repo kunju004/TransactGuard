@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: TransactGuard
+    orgId: 1
+    folder: TransactGuard
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards

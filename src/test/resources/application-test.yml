@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:transaction_tests;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+app:
+  seed:
+    enabled: false
+  messaging:
+    kafka:
+      enabled: false
